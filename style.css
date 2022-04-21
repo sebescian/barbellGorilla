@@ -1,0 +1,294 @@
+/* Color Theme Swatches in RGBA */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #0c0c0c;
+  font-family: "Roboto", sans-serif;
+}
+
+body p {
+  font-family: "Merriweather", serif;
+}
+
+#navbarNav {
+  background-color: #0c0c0c;
+}
+
+.carousel {
+  width: 100% !important;
+  overflow: hidden !important;
+  right: 0 !important;
+}
+
+#hamburgerIcon {
+  font-size: 3rem;
+}
+
+#gymLogo {
+  height: 7rem;
+}
+
+.nav-item > a {
+  color: #f2f2f2;
+}
+
+#toggleButton {
+  color: #f2f2f2;
+}
+
+.dropdown-item:hover {
+  background-color: #a56e4d;
+  color: white;
+}
+
+#carouselSlider {
+  padding-bottom: 5rem;
+}
+
+#carouselSlider .carousel-item {
+  height: 30rem;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+#carouselSlider .carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#carouselSlider .carousel-control-prev {
+  overflow: hidden;
+}
+
+#carouselSlider .carousel-control-next {
+  overflow: hidden;
+}
+
+#aboutUs {
+  text-align: center;
+  color: #a56e4d;
+}
+
+#aboutUs hr {
+  border: 2px solid #a56e4d;
+  max-width: 5%;
+}
+
+#aboutUs p {
+  max-width: 50vw;
+  margin: auto;
+  color: #f2f2f2;
+}
+
+.quote h1 {
+  color: #f2f2f2;
+  font-style: oblique;
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  margin: auto;
+}
+
+#features {
+  text-align: center;
+  color: #d8042b;
+}
+
+#features hr {
+  border: 2px solid #d8042b;
+  max-width: 5%;
+}
+
+#features p {
+  max-width: 50vw;
+  margin: auto;
+  color: #f2f2f2;
+}
+
+#features #cardGrid {
+  max-width: 75%;
+  margin: auto;
+  gap: 1rem;
+  font-size: 1rem;
+  color: #f2f2f2;
+}
+
+#features #cardGrid .iconStyle {
+  font-size: 4rem;
+  color: white;
+}
+
+#features #cardGrid .featureStyle:hover {
+  color: #d8042b;
+  -webkit-animation: feature 700ms infinite linear;
+          animation: feature 700ms infinite linear;
+  cursor: pointer;
+}
+
+@-webkit-keyframes feature {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes feature {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+#features #cardGrid .featureStyle:hover .iconStyle {
+  font-size: 4rem;
+  color: #d8042b;
+}
+
+#pricing {
+  padding-top: 4rem;
+  text-align: center;
+  color: #a56e4d;
+}
+
+#pricing hr {
+  border: 2px solid #a56e4d;
+  max-width: 5%;
+}
+
+#pricing .card-header {
+  background-color: #a56e4d;
+  color: #f2f2f2;
+}
+
+#pricing .premium .card-header {
+  background-color: #714b35;
+}
+
+#pricing .premium .card-body {
+  color: #714b35;
+}
+
+#pricing .premium li {
+  color: #714b35;
+}
+
+#pricing .platinum .card-header {
+  background-color: #4e3424;
+}
+
+#pricing .platinum .card-body {
+  color: #4e3424;
+}
+
+#pricing .platinum li {
+  color: #4e3424;
+}
+
+#pricing .cardEffect {
+  border: 0px;
+}
+
+#pricing .cardEffect:hover {
+  -webkit-animation: pricing 700ms infinite linear;
+          animation: pricing 700ms infinite linear;
+}
+
+@-webkit-keyframes pricing {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes pricing {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.material-icons-outlined {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: top;
+}
+
+#contact {
+  max-width: 75%;
+  margin: auto;
+  color: #f2f2f2;
+  padding-top: 2rem;
+  color: #a56e4d;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+#contact hr {
+  border: 2px solid #a56e4d;
+  max-width: 5%;
+}
+
+#contact button {
+  background-color: #a56e4d;
+  border: 0px;
+  font-weight: 700;
+}
+
+#footer {
+  background-color: #0c0c0c;
+  color: #f2f2f2;
+}
+
+#footer a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */

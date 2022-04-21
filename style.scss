@@ -1,0 +1,228 @@
+
+/* Color Theme Swatches in RGBA */
+$brightRed: rgba(216,4,43, 1);
+$darkRed: rgba(165,9,51, 1);
+$sandy: rgba(165,110,77, 1);
+$premium: darken($color: rgba(165,110,77, 1), $amount: 15);
+$platinum: darken($color: rgba(165,110,77, 1), $amount: 25);
+$white: rgba(242,242,242, 1);
+$black: rgba(12,12,12, 1);
+$primaryFont: 'Roboto', sans-serif;
+$secondaryFont: 'Merriweather', serif;
+
+* {box-sizing: border-box;}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0 auto;
+    background-color: $black;
+    font-family: $primaryFont;
+    p {
+        font-family: $secondaryFont;
+    }
+}
+#navbarNav {
+    background-color: $black;
+}
+.carousel {
+    width:100% !important; 
+    overflow: hidden !important; 
+    right:0 !important; 
+}
+#hamburgerIcon {
+    font-size: 3rem;
+}
+#gymLogo {
+    height: 7rem;
+  }
+.nav-item > a {
+    color: $white;
+
+}
+#toggleButton {
+    color: $white;
+}
+.dropdown-item:hover {
+    background-color: $sandy;
+    color: white;
+  }
+ #carouselSlider { 
+.carousel-item {
+    height: 30rem;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    img {
+        object-fit: cover;
+        object-position: center;
+        height: 100vh;
+        overflow: hidden;
+
+    }
+  }
+  padding-bottom: 5rem;
+  .carousel-control-prev {
+      overflow: hidden;
+  }
+  .carousel-control-next {
+    overflow: hidden;
+}
+ }
+#aboutUs {
+    text-align: center;
+    color: $sandy;
+
+    hr {
+        border: 2px solid $sandy;
+        max-width: 5%;
+    }
+
+    p {
+        max-width: 50vw;
+        margin: auto;
+        color: $white;
+    }
+}
+.quote h1 {
+    
+    color: $white;
+    font-style: oblique;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+}
+#features {
+    
+    text-align: center;
+    color: $brightRed;
+
+    hr {
+        border: 2px solid $brightRed;
+        max-width: 5%;
+    }
+
+    p {
+        max-width: 50vw;
+        margin: auto;
+        color: $white;
+    }
+    #cardGrid {
+        max-width: 75%;
+        margin: auto;
+        gap: 1rem;
+        font-size: 1rem;
+        color: $white;
+        .iconStyle {
+            font-size: 4rem;
+            color: white;
+        }
+        .featureStyle:hover {
+            color: $brightRed;
+            animation: feature 700ms infinite linear;
+            @keyframes feature {
+                0% {
+                    transform: scale(1);
+                }
+                50% {
+                    transform: scale(1.1);
+                }
+                100% {
+                    transform: scale(1);
+                }
+            }
+            cursor: pointer;
+            .iconStyle {
+                font-size: 4rem;
+                color: $brightRed;
+            }
+        }
+    }
+
+}
+#pricing {
+    padding-top: 4rem;
+    text-align: center;
+    color: $sandy;
+    hr {
+        border: 2px solid $sandy;
+        max-width: 5%;
+    }
+    .card-header {
+        background-color: $sandy;
+        color: $white;
+    }
+    .premium {
+        .card-header {
+            background-color: $premium;
+
+    }
+        .card-body {
+            color: $premium;
+        }
+        li {
+            color: $premium;
+        }
+
+    }
+    .platinum {
+        .card-header {
+        background-color: $platinum;
+    }
+    .card-body {
+        color: $platinum;
+    }
+        li {
+            color: $platinum;
+        }
+    }
+    .cardEffect {
+        border: 0px;
+    }
+    .cardEffect:hover {
+        animation: pricing 700ms infinite linear;
+        @keyframes pricing {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.04);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    }
+}
+.material-icons-outlined {
+    display:inline-flex;
+    vertical-align:top;
+}
+#contact {
+    max-width: 75%;
+    margin: auto;
+    color: $white;
+    padding-top: 2rem;
+    color: $sandy;
+    h2 {
+        text-align: center;
+    }
+    hr {
+        border: 2px solid $sandy;
+        max-width: 5%;
+    }
+    button {
+        background-color: $sandy;
+        border: 0px;
+        font-weight: 700;
+    }
+}
+#footer {
+    background-color: $black;
+    color: $white;
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+}
